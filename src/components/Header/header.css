@@ -1,0 +1,21 @@
+.header-layout {
+  background: white !important;
+}
+
+.header-container {
+  display: grid;
+  max-width: 100%;
+  margin: 10px;
+  grid-gap: 0px 50px;
+  grid-template-columns: 2fr 18fr 2fr;
+}
+
+.header-container>* {
+  grid-column: 2 / -2;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.header-container .header {
+  justify-items: center;
+}

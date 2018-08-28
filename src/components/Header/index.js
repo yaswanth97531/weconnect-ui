@@ -1,13 +1,20 @@
 import React from 'react';
-import { Layout, Icon } from 'antd';
+import { Layout, Menu} from 'antd';
+import './header.css';
 
 const { Header } = Layout;
 
 const HeaderNav = () => {
   return(
-    <Layout>
-    <Header style={{ position: 'fixed', zIndex: 1, width: '100%'}}>Header</Header>
-  </Layout>
+    <Layout className="header-layout">
+      <div class="header-container">
+        <Header class="header">
+          <div>Upgrade</div>
+          <div>WeConnect</div>
+          <div>Sign In</div>
+        </Header>
+      </div>
+     </Layout>     
   );
   
 }

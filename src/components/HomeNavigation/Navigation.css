@@ -26,6 +26,8 @@
   margin: 10px;
   grid-gap: 10px 50px;
   grid-template-columns: auto;
+  /* position: sticky;
+  top: 0; */
 }
 
 .menu-container>li {
@@ -47,7 +49,7 @@
 .posts-container {
   /* grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); */
   grid-template-columns: auto auto auto;
-  grid-template-areas: 'post post fixedPost1' 'post post fixedPost2';
+  grid-template-areas: 'post post fixedPost1''post post fixedPost2';
   grid-gap: 30px;
   background: coral;
   margin-top: 20px;

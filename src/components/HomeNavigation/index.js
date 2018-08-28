@@ -18,22 +18,6 @@ class Nav extends Component {
     return (
         <Layout className="home-layout">
           <div class="home-container">
-            <Header class="header">
-              <div>Upgrade</div>
-              <div>WeConnect</div>
-              <div>Sign In</div>
-            </Header>
-            <div class="menu-container">
-              <Menu
-              className="menu"
-              mode="horizontal"
-              defaultSelectedKeys={['1']}
-              >
-              <Menu.Item key="1">nav 1</Menu.Item>
-              <Menu.Item key="2">nav 2</Menu.Item>
-              <Menu.Item key="3">nav 3</Menu.Item>
-              </Menu>
-            </div>
             <div className="hot-posts-container">
               <div class="post1">post1</div>
               <div class="post2">post2</div>
